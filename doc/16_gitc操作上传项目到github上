@@ -1,0 +1,11 @@
+# 1. 安装git， 申请github帐号
+
+# 2. 在Github上新建仓库；
+
+
+# 3. git初始化本地目录
+git init
+git  add  *
+git  commit    -m "第一次提交"
+git remote add origin https://github.com/lvah/DjangoMyBlog.git
+git push -u origin master
