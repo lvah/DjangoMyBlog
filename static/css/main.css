@@ -1,0 +1,87 @@
+
+.navbar-brand{
+    /*设置北京图片*/
+    background-image: url("../img/logo.jpg");
+    /*设置div宽度*/
+    width: 50px;
+    /*设置图片的位置--让上下左右均居中;*/
+    background-position: center center;
+    /*图片太大， 缩小至90%*/
+    background-size: 90%;
+    /*默认北京图片不够时， 会重复出现， 此处设置为不重复出现;*/
+    background-repeat: no-repeat;
+
+}
+
+
+.navbar{
+    box-shadow: 5px 5px 5px #f3eded;
+    background: white;
+    border: 1px solid snow ;
+    font-size: 120%;
+    height: 65px;
+    padding-top: 4px;
+    /*font-size: 130%;*/
+    /*height: 66px;*/
+    /*padding-top: 5px;*/
+}
+
+.left-side a, .left-side{
+    /*设置边框为0*/
+    border: 0;
+    border-radius: 2px ;
+    margin-top: 5px;
+    font-size: 110%;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.left-side a:hover, .left-side-active{
+    background: #b792ec;
+    /*background: mediumpurple;*/
+    border: 1px purple;
+}
+.news-png{
+    width: 200px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.media-heading{
+    margin-top: 15px;
+}
+.news-info{
+    margin-top: 15px;
+     color: darkgrey;
+}
+
+.list-group .active, .list-group .active:hover{
+    background: #b792ec;
+    border: 1px purple;
+
+}
+.active-page{
+    background: rebeccapurple;
+}
+.hot-news .list-group-item:hover{
+    color: mediumpurple;
+}
+
+
+
+.btn-block{
+    background: purple;
+    border: 1px purple;
+}
+
+.btn-block:hover{
+    background: rebeccapurple;
+}
+
+
+
+.footer{
+    text-align:  center;
+    margin-top: 50px;
+    color: darkgrey;
+}
